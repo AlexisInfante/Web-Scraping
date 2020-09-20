@@ -29,6 +29,6 @@ with open('IMDb_250.csv', 'w', newline = '') as f:
 	for i in range(0,len(movie_ranking)):
 		writer.writerow([movie_ranking[i], movie_name[i], movie_year[i], movie_score[i]])
 
-f.close()
+
 
 
